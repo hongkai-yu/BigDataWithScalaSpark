@@ -1,0 +1,130 @@
+2020.12.28 21:43:19 INFO  Started: Metals version 0.9.8 in workspace '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow' for client vscode.
+2020.12.28 21:43:23 INFO  time: initialize in 4.69s
+2020.12.28 21:43:24 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher16837971708322483568/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher16837971708322483568/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher16837971708322483568/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.12.28 21:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Hongkai_Yu/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.12.28 21:43:24 INFO  time: connected to build server in 0.87s
+2020.12.28 21:43:24 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2020.12.28 21:43:25 ERROR Empty build targets. Expected at least one build target identifier.
+2020.12.28 21:43:25 ERROR Empty build targets. Expected at least one build target identifier.
+2020.12.28 21:43:25 ERROR Empty build targets. Expected at least one build target identifier.
+2020.12.28 21:43:31 INFO  time: indexed workspace in 5.42s
+2020.12.28 21:55:27 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflowInterface.scala
+2020.12.28 21:55:33 INFO  no build target: using presentation compiler with only scala-library
+2020.12.28 21:57:16 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.28 22:04:09 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:04:09 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:05:00 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:05:00 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:05:03 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:05:03 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.28 22:10:30 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+Dec. 28, 2020 10:13:01 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 173
+Dec. 28, 2020 10:13:01 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 175
+Dec. 28, 2020 10:13:37 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 300
+2020.12.28 22:14:38 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/package.scala
+Dec. 28, 2020 10:15:02 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+Dec. 28, 2020 10:15:05 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+Dec. 28, 2020 10:22:10 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 760
+2020.12.28 22:24:09 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+Dec. 28, 2020 10:32:40 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1206
+Dec. 28, 2020 10:37:52 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1767
+Dec. 28, 2020 10:55:57 P.M. scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 3931, count -1, length 8997
+Dec. 28, 2020 11:10:07 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2163
+2020.12.28 23:20:35 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.28 23:25:03 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+Dec. 28, 2020 11:25:42 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3354
+2020.12.28 23:26:09 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+something's wrong: no file:///Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala in Array[(Int, Int)]RangePosition(file:///Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala, 7239, 7239, 7256)
+Dec. 28, 2020 11:53:26 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3994
+Dec. 28, 2020 11:55:09 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4186
+2020.12.28 23:55:16 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+Dec. 28, 2020 11:58:52 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4586
+Dec. 28, 2020 11:59:22 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4712
+Dec. 28, 2020 11:59:31 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4782
+2020.12.29 00:00:15 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.29 00:00:15 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+Dec. 29, 2020 12:04:02 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4874
+2020.12.29 00:05:08 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:05:18 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:05:59 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:08:39 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:14:37 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.29 00:16:20 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:16:35 WARN  code navigation does not work for the file '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala' because it doesn't belong to a build target.
+2020.12.29 00:16:35 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:18:36 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:22:41 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+Dec. 29, 2020 12:23:46 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5350
+2020.12.29 00:24:21 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:27:28 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:37:10 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 00:40:47 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala
+2020.12.29 12:37:16 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.12.29 12:37:16 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.01.01 00:41:44 INFO  Started: Metals version 0.9.8 in workspace '/Users/Hongkai_Yu/Desktop/Scala/stackoverflow' for client vscode.
+2021.01.01 00:41:49 INFO  time: initialize in 5.5s
+2021.01.01 00:41:50 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher2622965768975478615/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.01 00:41:51 INFO  skipping build import with status 'Dismissed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher2622965768975478615/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/bsp-launcher2622965768975478615/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.01 00:41:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Hongkai_Yu/Library/Caches/org.scalameta.metals/bsp.trace.json
+2021.01.01 00:41:59 INFO  time: connected to build server in 9.5s
+2021.01.01 00:41:59 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.01 00:42:00 ERROR Empty build targets. Expected at least one build target identifier.
+2021.01.01 00:42:00 ERROR Empty build targets. Expected at least one build target identifier.
+2021.01.01 00:42:00 ERROR Empty build targets. Expected at least one build target identifier.
+2021.01.01 00:42:00 INFO  time: imported build in 0.15s
+2021.01.01 00:42:06 INFO  time: indexed workspace in 5.89s
+2021.01.01 00:42:27 INFO  shutting down Metals
+2021.01.01 00:42:27 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

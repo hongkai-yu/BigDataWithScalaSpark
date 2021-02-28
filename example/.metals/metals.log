@@ -1,0 +1,96 @@
+2020.12.25 22:24:48 INFO  Started: Metals version 0.9.8 in workspace '/Users/Hongkai_Yu/Desktop/Scala/example' for client vscode.
+2020.12.25 22:24:52 INFO  time: initialize in 4.66s
+2020.12.25 22:24:53 WARN  Build server is not auto-connectable.
+2020.12.25 22:24:53 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 22:25:01 INFO  no build target: using presentation compiler with only scala-library
+2020.12.25 22:25:21 INFO  shutting down Metals
+2020.12.25 22:25:38 INFO  Started: Metals version 0.9.8 in workspace '/Users/Hongkai_Yu/Desktop/Scala/example' for client vscode.
+2020.12.25 22:25:43 INFO  time: initialize in 4.78s
+2020.12.25 22:25:44 WARN  Build server is not auto-connectable.
+2020.12.25 22:25:44 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 22:25:44 INFO  skipping build import with status 'Dismissed'
+2020.12.25 22:25:50 INFO  no build target: using presentation compiler with only scala-library
+2020.12.25 22:47:52 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 22:51:19 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s2/0h4zzdkd57nd3bth5pb395cw0000gn/T/metals14648457630458181264/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.12.25 22:51:20 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/project/metals.sbt
+2020.12.25 22:51:20 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/project/project/metals.sbt
+2020.12.25 22:51:20 INFO  skipping build import with status 'Started'
+2020.12.25 22:51:20 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/project/metals.sbt
+2020.12.25 22:51:20 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/project/project/metals.sbt
+2020.12.25 22:51:19 INFO  skipping build import with status 'Started'
+2020.12.25 22:51:26 INFO  [info] Loading global plugins from /Users/Hongkai_Yu/.sbt/1.0/plugins
+2020.12.25 22:51:31 INFO  [info] Loading settings for project example-build-build-build from metals.sbt ...
+2020.12.25 22:51:31 INFO  [info] Loading project definition from /Users/Hongkai_Yu/Desktop/Scala/example/project/project/project
+2020.12.25 22:51:48 INFO  [info] Loading settings for project example-build-build from metals.sbt ...
+2020.12.25 22:51:48 INFO  [info] Loading project definition from /Users/Hongkai_Yu/Desktop/Scala/example/project/project
+2020.12.25 22:52:01 INFO  [success] Generated .bloop/example-build-build.json
+2020.12.25 22:52:01 INFO  [success] Total time: 13 s, completed Dec. 25, 2020, 10:52:02 p.m.
+2020.12.25 22:52:05 INFO  [info] Loading settings for project example-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+2020.12.25 22:52:05 INFO  [info] Loading project definition from /Users/Hongkai_Yu/Desktop/Scala/example/project
+2020.12.25 22:52:08 INFO  [success] Generated .bloop/example-build.json
+2020.12.25 22:52:08 INFO  [success] Total time: 2 s, completed Dec. 25, 2020, 10:52:08 p.m.
+2020.12.25 22:52:10 INFO  user cancelled sbt bloopInstall
+2020.12.25 22:52:10 INFO  time: ran 'sbt bloopInstall' in 50s
+2020.12.25 22:52:10 INFO  2020-12-25 22:52:10,831 shutdown-hooks-run-all ERROR No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+2020.12.25 22:52:10 INFO  sbt bloopInstall exit: 143
+2020.12.25 22:52:54 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 22:54:07 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/Main.scala
+2020.12.25 22:55:01 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/Main.scala
+Dec. 25, 2020 10:55:23 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec. 25, 2020 10:56:38 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: 
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: 
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: 
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:136)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:335)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2020.12.25 22:57:26 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/Main.scala
+2020.12.25 22:57:46 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/test/scala/example/ListsSuite.scala
+2020.12.25 23:06:34 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 23:06:34 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/test/scala/example/ListsSuite.scala
+2020.12.25 23:09:29 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.25 23:11:17 INFO  shutting down Metals
+2020.12.26 16:35:16 INFO  Started: Metals version 0.9.8 in workspace '/Users/Hongkai_Yu/Desktop/Scala/example' for client vscode.
+2020.12.26 16:35:20 INFO  time: initialize in 4.79s
+2020.12.26 16:35:21 WARN  Build server is not auto-connectable.
+2020.12.26 16:35:21 WARN  no build target for: /Users/Hongkai_Yu/Desktop/Scala/example/src/main/scala/example/Lists.scala
+2020.12.26 16:35:22 INFO  skipping build import with status 'Cancelled'
+2020.12.26 16:35:28 INFO  no build target: using presentation compiler with only scala-library
+2020.12.26 16:35:51 INFO  shutting down Metals
